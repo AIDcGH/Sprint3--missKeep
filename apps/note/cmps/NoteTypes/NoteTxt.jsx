@@ -1,3 +1,3 @@
 export function NoteTxt({ info }) {
-    return <div>{info.txt}</div>
+    return <section className="note-txt"><p>{info.txt}</p></section>
 }
